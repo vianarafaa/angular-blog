@@ -1,0 +1,16 @@
+
+.container__menu-bar > ul{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.container__menu-bar > ul > li {
+  list-style: none;
+}
+
+.linha-vertical {
+  height: 1rem;
+  border-left: 2px solid #404040;
+}
