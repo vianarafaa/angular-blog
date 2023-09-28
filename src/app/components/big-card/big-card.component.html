@@ -2,17 +2,18 @@
   <a href="#">
     <div class="big-card__image">
       <img
-      src="https://i.redd.it/n2bvrg58k3h81.jpg"
+      src="{{photoCover}}"
       alt=""
       height="250px"
       >
     </div>
 
     <div class="big-card__title">
-      <h1>Saiu a nova versão do Angular</h1>
+      <span>{{ cardDate }}</span>
+      <h1>{{ cardTitle }}</h1>
     </div>
     <div class="big-card__description">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <p>{{ cardDescription }}</p>
     </div>
   </a>
 </div>

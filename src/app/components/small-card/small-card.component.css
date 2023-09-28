@@ -1,6 +1,5 @@
 .container__small-card {
   width: 600px;
-
 }
 
 .container__small-card__content {
@@ -8,7 +7,7 @@
   flex-direction: row;
 }
 
-.small-card__image > img {
+.small-card__image > a > img {
   width: 200px;
   min-width: 200px;
   margin-right: 1.25rem;
@@ -16,8 +15,14 @@
 
 .small-card__title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.small-card__title > span {
+  font-size: 0.625rem;
+  color: #5f5f5f;
 }
 
 .small-card__title > h1 {

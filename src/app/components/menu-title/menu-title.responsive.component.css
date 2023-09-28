@@ -1,0 +1,16 @@
+@media screen and (max-width: 992px) {
+  .container__menu-title > h1 {
+    font-size: 3.5rem;
+  }
+
+  .container__menu-title > hr {
+    margin: 0.625rem 0 0.825rem 0;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 992px) {
+  .container__menu-title > h1 {
+    font-size: 5rem;
+  }
+}
+

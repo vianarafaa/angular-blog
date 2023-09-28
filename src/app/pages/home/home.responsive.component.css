@@ -1,0 +1,25 @@
+@media screen and (max-width: 992px){
+
+  .container__articles {
+    margin: 1rem 1rem 0 1rem;
+  }
+
+  .articles__others {
+    width: 100%;
+  }
+
+  .articles__highlight{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 992px) {
+
+  app-menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2rem 0 2rem;
+  }
+}
+

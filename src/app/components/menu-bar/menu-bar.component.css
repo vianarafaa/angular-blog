@@ -1,16 +1,25 @@
+.container__menu-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
-.container__menu-bar > ul{
+.menu-bar__icon > a > img {
+  width: 30px;
+}
+
+.menu-bar__links > ul{
   display: flex;
   flex-direction: row;
   gap: 2rem;
   align-items: center;
 }
 
-.container__menu-bar > ul > li {
+.menu-bar__links > ul > li {
   list-style: none;
 }
 
 .linha-vertical {
-  height: 1rem;
+  height: 1.175rem;
   border-left: 2px solid #404040;
 }

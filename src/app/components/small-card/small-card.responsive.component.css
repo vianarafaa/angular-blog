@@ -1,0 +1,33 @@
+@media screen and (max-width: 992px) {
+  .container__small-card {
+    width: 100%;
+  }
+
+  .container__small-card__content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .small-card__image > a > img {
+    width: 100px;
+    min-width: 100px;
+    margin-right: 0.825rem;
+  }
+
+  .small-card__title > span {
+    font-size: 0.425rem;
+  }
+
+  .small-card__title > h1 {
+    font-size: 0.625rem;
+  }
+
+  .container__small-card__separator {
+    margin: 0.625rem 0 0.625rem 0;
+  }
+
+  .container__small-card__separator > hr {
+    border: 0;
+    border-top: 2px solid #404040;
+  }
+}

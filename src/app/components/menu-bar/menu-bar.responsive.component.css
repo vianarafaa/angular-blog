@@ -1,0 +1,18 @@
+@media screen and (max-width: 992px){
+  .menu-bar__links > ul{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.menu-bar__links > ul > li{
+  font-size: 0.825rem;
+}
+
+.linha-vertical {
+  height: 1rem;
+  border-left: 2px solid #404040;
+}
+}
+
