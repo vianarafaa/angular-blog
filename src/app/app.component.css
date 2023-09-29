@@ -1,0 +1,11 @@
+header {
+  margin: 0.625rem 0 0.625rem 0;
+}
+
+app-menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 2rem 0 2rem;
+}
+

@@ -1,0 +1,45 @@
+.container__content {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.content-cover > img {
+  width: 50%;
+  min-width: 650px;
+}
+
+.content-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+
+.content-title > h1 {
+  align-self: center;
+}
+
+.content-title > hr {
+  border: 0;
+  border-top: 2px solid #404040;
+}
+
+.content-description {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content-description > p {
+  width: 60%;
+  color: #bebebe;
+}

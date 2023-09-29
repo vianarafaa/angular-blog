@@ -1,0 +1,16 @@
+@media screen and (max-width: 992px) {
+  .content-cover > img {
+    width: 50%;
+    min-width: 80%;
+  }
+
+  .content-title > h1 {
+    font-size: 1.425rem;
+  }
+ }
+
+ @media screen and (min-width: 700px) and (max-width: 992px) {
+  .content-title > h1 {
+    font-size: 1.825rem;
+  }
+ }
