@@ -36,10 +36,13 @@
 .content-description {
   margin-top: 1rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .content-description > p {
+  margin-top: 1rem;
   width: 60%;
   color: #bebebe;
 }

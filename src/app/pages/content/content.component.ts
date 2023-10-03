@@ -12,6 +12,10 @@ export class ContentComponent implements OnInit {
   photoCover:string = 'https://gamearena.gg/wp-content/uploads/2023/09/nami-coven-2023.jpeg'
   contentTitle:string = ''
   contentDescription:string = ''
+  contentDescription2:string = ''
+  contentDescription3:string = ''
+  contentDescription4:string = ''
+  contentDescription5:string = ''
   private id:string | null = '0'
 
   constructor(
@@ -31,6 +35,10 @@ export class ContentComponent implements OnInit {
 
     this.contentTitle = result.title
     this.contentDescription = result.description
+    this.contentDescription2 = result.descriptionSecond
+    this.contentDescription3 = result.descriptionThird
+    this.contentDescription4 = result.descriptionFourth
+    this.contentDescription5 = result.descriptionFifth
     this.photoCover = result.photoCover
   }
 
